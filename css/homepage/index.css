@@ -1,0 +1,145 @@
+.header__bar {
+  background-color: #E9E5D6;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+.navbar a {
+  display: none;
+}
+
+.navbar button {
+  background-color: #464E2E;
+  padding: 12px 46px;
+  font-weight: 300, Light;
+  font-size: 0.875rem;
+  color: #FFF;
+}
+
+.homepage__content {
+  background-color: #ACB992;
+  text-align: center;
+}
+
+.homepage__content button {
+  background-color: #464E2E;
+  padding: 12px 71px;
+  font-weight: 300, Light;
+  font-size: 1rem;
+  color: #FFF;
+  margin-top: 20px;
+}
+
+.homepage__content img {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.catalogue__content {
+  text-align: center;
+  background-color: #E9E5D6;
+}
+
+.catalogue__content p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400 normal;
+  color: #464E2E;
+  padding: 20px;
+}
+
+.catalogue__content img {
+  margin-top: 20px;
+}
+
+.about__us {
+  background-color: #ACB992;
+  padding: 20px;
+}
+
+.about__us .about {
+  color: #464E2E;
+  text-align: center;
+}
+
+.about__us img {
+  margin-top: 10px;
+}
+
+.about__us p {
+  color: #fff;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.about__us button {
+  background-color: #ACB992;
+  padding: 12px 46px;
+  font-weight: 300, Light;
+  font-size: 0.750rem;
+  color: #464E2E;
+  border: 1px solid #464E2E;
+  margin-top: 10px;
+}
+
+.gallery {
+  background-color: #E9E5D6;
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery p {
+  color: #464E2E;
+}
+
+.gallery img {
+  width: 80%;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #ACB992;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer__social__media {
+  color: #FFF;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  font-size: 1.15rem;
+}
+
+.footer__adress {
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.footer__privacy {
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.footer__allrights {
+  color: #FFF;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=index.css.map */

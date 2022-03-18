@@ -1,0 +1,329 @@
+:root {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header__bar {
+  background-color: #E9E5D6;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+.navbar a {
+  display: none;
+}
+
+.navbar button {
+  background-color: #464E2E;
+  padding: 12px 46px;
+  font-weight: 300, Light;
+  font-size: 0.875rem;
+  color: #FFF;
+}
+
+.homepage__content {
+  background-color: #ACB992;
+  text-align: center;
+}
+
+.homepage__content button {
+  background-color: #464E2E;
+  padding: 12px 71px;
+  font-weight: 300, Light;
+  font-size: 1rem;
+  color: #FFF;
+  margin-top: 20px;
+}
+
+.homepage__content img {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.catalogue__content {
+  text-align: center;
+  background-color: #E9E5D6;
+}
+
+.catalogue__content p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400 normal;
+  color: #464E2E;
+  padding: 20px;
+}
+
+.catalogue__content img {
+  margin-top: 20px;
+}
+
+.about__us {
+  background-color: #ACB992;
+  padding: 20px;
+}
+
+.about__us .about {
+  color: #464E2E;
+  text-align: center;
+}
+
+.about__us img {
+  margin-top: 10px;
+}
+
+.about__us p {
+  color: #fff;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.about__us button {
+  background-color: #ACB992;
+  padding: 12px 46px;
+  font-weight: 300, Light;
+  font-size: 0.750rem;
+  color: #464E2E;
+  border: 1px solid #464E2E;
+  margin-top: 10px;
+}
+
+.gallery {
+  background-color: #E9E5D6;
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery p {
+  color: #464E2E;
+}
+
+.gallery img {
+  width: 80%;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #ACB992;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer__social__media {
+  color: #FFF;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  font-size: 1.15rem;
+}
+
+.footer__adress {
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.footer__privacy {
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.footer__allrights {
+  color: #FFF;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .homepage__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .about__us {
+    padding: 20px;
+    text-align: center;
+  }
+  .about__us .about {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar a {
+    display: block;
+  }
+  .navbar a:hover {
+    color: #4b7001;
+  }
+  .navbar button:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .homepage__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e5f7c5), to(#4b7001));
+    background-image: linear-gradient(#e5f7c5, #4b7001);
+  }
+  .homepage__content img {
+    margin-right: 20px;
+    width: 35%;
+  }
+  .homepage__content button:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .about__us {
+    padding: 80px;
+  }
+  .about__us p {
+    margin: 0 auto;
+  }
+  .about__us button:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .gallery {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e5f7c5), to(#E9E5D6));
+    background-image: linear-gradient(#e5f7c5, #E9E5D6);
+  }
+  .gallery .gallery__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .gallery .gallery__image img {
+    width: 27%;
+    margin: 50px auto;
+  }
+  .footer__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .footer__text .footer__social__media {
+    border: 1px solid #4b7001;
+    padding: 25px;
+  }
+  .footer__text .footer__adress {
+    border: 1px solid #4b7001;
+    padding: 25px;
+    margin-left: 5px;
+  }
+  .footer__text .footer__privacy {
+    border: 1px solid #4b7001;
+    padding: 25px;
+    margin-left: 5px;
+  }
+  .footer__text .footer__allrights {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

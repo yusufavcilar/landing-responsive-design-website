@@ -1,0 +1,98 @@
+@media (min-width: 1200px) {
+  .navbar a {
+    display: block;
+  }
+  .navbar a:hover {
+    color: #4b7001;
+  }
+  .navbar button:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .homepage__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e5f7c5), to(#4b7001));
+    background-image: linear-gradient(#e5f7c5, #4b7001);
+  }
+  .homepage__content img {
+    margin-right: 20px;
+    width: 35%;
+  }
+  .homepage__content button:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .about__us {
+    padding: 80px;
+  }
+  .about__us p {
+    margin: 0 auto;
+  }
+  .about__us button:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .gallery {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e5f7c5), to(#E9E5D6));
+    background-image: linear-gradient(#e5f7c5, #E9E5D6);
+  }
+  .gallery .gallery__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .gallery .gallery__image img {
+    width: 27%;
+    margin: 50px auto;
+  }
+  .footer__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .footer__text .footer__social__media {
+    border: 1px solid #4b7001;
+    padding: 25px;
+  }
+  .footer__text .footer__adress {
+    border: 1px solid #4b7001;
+    padding: 25px;
+    margin-left: 5px;
+  }
+  .footer__text .footer__privacy {
+    border: 1px solid #4b7001;
+    padding: 25px;
+    margin-left: 5px;
+  }
+  .footer__text .footer__allrights {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=large.css.map */

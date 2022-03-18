@@ -1,0 +1,138 @@
+.header__bar {
+    background-color: #E9E5D6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    a {
+        display: none;
+    }
+
+    button {
+        background-color: #464E2E;
+        padding: 12px 46px;
+        font-weight: 300, Light;
+        font-size: 0.875rem;
+        color: #FFF;
+    }
+}
+
+.homepage__content {
+    background-color: #ACB992;
+    ;
+    text-align: center;
+
+    button {
+        background-color: #464E2E;
+        padding: 12px 71px;
+        font-weight: 300, Light;
+        font-size: 1rem;
+        color: #FFF;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 70%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.catalogue__content {
+    text-align: center;
+    background-color: #E9E5D6;
+
+    p {
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400 normal;
+        color: #464E2E;
+        padding: 20px;
+    }
+
+    img {
+        margin-top: 20px;
+    }
+}
+
+.about__us {
+    background-color: #ACB992;
+    padding: 20px;
+
+    .about {
+        color: #464E2E;
+        text-align: center;
+    }
+
+    img {
+        margin-top: 10px;
+    }
+
+    p {
+        color: #fff;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    button {
+        background-color: #ACB992;
+        padding: 12px 46px;
+        font-weight: 300, Light;
+        font-size: 0.750rem;
+        color: #464E2E;
+        border: 1px solid #464E2E;
+        margin-top: 10px;
+    }
+}
+
+.gallery {
+    background-color: #E9E5D6;
+    text-align: center;
+    padding: 20px;
+
+    p {
+        color: #464E2E;
+    }
+
+    img {
+        width: 80%;
+        padding: 15px;
+    }
+}
+
+.footer {
+    background-color: #ACB992;
+    text-align: center;
+    padding: 15px;
+     
+    .footer__image {}
+
+    &__social__media {
+        color: #FFF;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 1.15rem;
+    }
+
+    &__adress {
+        color: #FFF;
+        margin-top: 10px;
+        
+    }
+
+    &__privacy {
+        color: #FFF;
+        margin-top: 10px;
+       
+    }
+    &__allrights {
+        color: #FFF;
+        margin-top: 10px;        
+    }
+}
